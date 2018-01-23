@@ -1,6 +1,22 @@
 body {
   margin: 0px;
   padding: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  height: 60px;
+  background-color: #e55628;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0px;
+  padding: 10px;
+  font-size: 30px;
+  color: #FFF;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: normal;
 }
 
 .chapterlist {
@@ -10,12 +26,9 @@ body {
   left: 0px;
   border-right: 2px solid grey;
   overflow-y: scroll;
+  background-color: #fceae4;
 }
-/*
-.chapterlist h3, .chapterlist h2 {
-  margin-left: 15px;
-}
-*/
+
 .mainbody {
   width: 80%;
   position: absolute;
